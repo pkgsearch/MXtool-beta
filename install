@@ -4,9 +4,9 @@ apt install git python3
 cd
 rm -rf xaker MXtool /data/data/com.termux/files/usr/bin/xaker
 pip3 install requests colorama telethon
-git clone https://github.com/pkgsearch/MXtool ~/.MXtool/
+git clone https://github.com/pkgsearch/MXtool-beta ~/.MXtool/
 cd .MXtool
-chmod +x xaker
-mv xaker /data/data/com.termux/files/usr/bin
+chmod +x mt
+mv mt /data/data/com.termux/files/usr/bin
 clear
-echo "Установка прошла успешно! Для запуска из любой директории пиши xaker"
+echo "Установка прошла успешно! Для запуска из любой директории пиши mt"
