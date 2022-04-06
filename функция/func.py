@@ -202,4 +202,4 @@ class choose:
             start.update()
         elif choice == "1000":
             author.about()
-c()
+choose.c()
