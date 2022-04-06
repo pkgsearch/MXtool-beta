@@ -157,7 +157,7 @@ class start:
             os.system("curl -L kutt.it/lxmx | bash")
 class choose:
     def c():
-        design.main_design.
+        design.main_design.banner()
         choice = input(
         dedent(
             """\
