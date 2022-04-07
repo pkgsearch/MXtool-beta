@@ -1,4 +1,4 @@
-import colorama
+from colorama import *
 import os
 from textwrap import dedent
 class design:
